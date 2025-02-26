@@ -28,7 +28,7 @@ from selection import EvalTool
 
 # input paths
 base_model = 'AkhilDua/Llama-3.2-3B-ReArc-lora'  # auto-downloaded from huggingface.co
-arc_data_path = os.path.join('eval', 'arc-prize-2024')  # as on kaggle arc prize 2024
+arc_data_path = os.path.join('/kaggle/input/arc-data/ARC-Data/eval', 'arc-prize-2024')  # as on kaggle arc prize 2024
 
 # output paths
 output_path = 'output_evaluation_Llama-rearc_with_ttt'
