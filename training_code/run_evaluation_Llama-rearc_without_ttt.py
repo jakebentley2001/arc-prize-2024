@@ -23,7 +23,7 @@ from inference_tools import inference_run
 from selection import EvalTool
 
 # input paths
-base_model = 'AkhilDua/Llama-3.2-3B-ReArc-lora'  # auto-downloaded from huggingface.co
+base_model = 'AkhilDua/Llama-3.2-3B-ReArc-merged'  # auto-downloaded from huggingface.co
 arc_data_path = os.path.join('/kaggle/input/arc-data/ARC-Data/eval', 'arc-prize-2024')  # as on kaggle arc prize 2024
 
 # output paths
